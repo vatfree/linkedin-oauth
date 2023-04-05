@@ -1,13 +1,13 @@
 Package.describe({
-  name: 'pauli:linkedin-oauth',
-  version: '5.0.0',
-  summary: 'LinkedIn OAuth flow, use with Meteor 1.6.1 & up',
-  git: 'https://github.com/PoBuchi/pauli-linkedin-oauth',
+  name: 'vatfree:linkedin-oauth',
+  version: '5.0.1',
+  summary: 'LinkedIn OAuth flow, use with Meteor 2.3 & up',
+  git: 'https://github.com/vatfree/linkedin-oauth',
   documentation: 'README.md'
 });
 
 Package.onUse(api => {
-  api.versionsFrom('1.6.1');
+  api.versionsFrom('2.3');
   api.use('ecmascript');
   api.use('oauth2', ['client', 'server']);
   api.use('oauth', ['client', 'server']);
